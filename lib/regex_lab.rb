@@ -40,11 +40,9 @@ end
 #valid phone # regardless of formatting
 
 def valid_phone_number?(phone)
-  if phone.scan(/[\d]{3}-[\d]{3}-[\d]{4}/) == true
-    true
-  elsif phone.scan(/[\d]{10}/) == true
-    true
-  else
+  if phone.scan(//) == nil
     false
+  else
+    true
   end
 end
