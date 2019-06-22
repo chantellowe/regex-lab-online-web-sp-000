@@ -35,6 +35,10 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   end
 end
 
-def valid_phone_number?(phone)
 
+
+#valid phone # regardless of formatting
+
+def valid_phone_number?(phone)
+  phone.match()
 end
