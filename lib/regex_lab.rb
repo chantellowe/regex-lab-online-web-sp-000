@@ -15,6 +15,10 @@ def words_starting_with_un_and_ending_with_ing(text)
   text.scan(/un\w*ing/)
 end
 
+
+
+#exact length, 5 letters
+
 def words_five_letters_long(text)
   text.scan(/\b{5}\b/)
 end
