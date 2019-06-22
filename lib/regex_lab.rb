@@ -28,7 +28,7 @@ end
 #starts w/ capital letter, ends w/ punctuation
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.match(/(^A-Z).*(\.!$)/) != nil
+  if text.match(/(^A-Z).*(\.!$)/) == true
     true
   else
     false
