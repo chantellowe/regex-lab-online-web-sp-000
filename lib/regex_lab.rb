@@ -3,7 +3,7 @@ def starts_with_a_vowel?(word)
     true
   end
   
-  if word.scan(/^[\w\W][^aeiouAEIOU]/)
+  if word.scan(/^[\d\D][^aeiouAEIOU]/)
     false
   end
 end
