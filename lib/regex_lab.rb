@@ -40,5 +40,9 @@ end
 #valid phone # regardless of formatting
 
 def valid_phone_number?(phone)
-  phone.match()
+  if phone.match(/(\d){3}-*(\d){3}-*(\d){4}/) == nil
+    false
+  else
+    true
+  end
 end
