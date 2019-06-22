@@ -12,8 +12,8 @@ end
 #un...ing
 
 def words_starting_with_un_and_ending_with_ing(text)
-  if text.scan(/(^[un])\S([ing]$)/) == nil
-    false
+  if text.scan(/(^[un])\S([ing]$)/) == true
+    return te
   else
     true
   end
